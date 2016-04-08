@@ -1,0 +1,14 @@
+#!/bin/bash
+
+xset b off
+xsetroot -solid black
+numlockx on &
+#xcape -e 'Shift_L=Escape;Control_L=Shift_L|braceleft;Control_R=Shift_L|bar' &
+xcape -e 'Shift_L=Escape;' &
+tint2 -c ~/.config/tint2/dbtxtray_tint2rc &
+nitrogen --restore
+setxkbmap us -variant intl
+#xmodmap ~/.xmodmap.conf
+claws-mail &
+
+
