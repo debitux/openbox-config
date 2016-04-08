@@ -2,12 +2,22 @@
 
 xset b off
 xsetroot -solid black
+<<<<<<< HEAD
+numlockx on &
+#xcape -e 'Shift_L=Escape;Control_L=Shift_L|braceleft;Control_R=Shift_L|bar' &
+xcape -e 'Shift_L=Escape;' &
+tint2 -c ~/.config/tint2/dbtxtray_tint2rc &
+nitrogen --restore
+setxkbmap us -variant intl
+#xmodmap ~/.xmodmap.conf
+=======
 setxkbmap us -variant intl
 numlockx on &
 xcape -e 'Shift_L=Escape;Control_L=Shift_L|braceleft;Control_R=Shift_L|bar' &
 tint2 -c ~/.config/tint2/dbtxtray_tint2rc &
 nitrogen --restore
 xmodmap ~/.xmodmap.conf
+>>>>>>> 871aec0ca5658e48ae7b06d298ec9a9146975306
 claws-mail &
 
 
